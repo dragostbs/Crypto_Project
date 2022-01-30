@@ -1,0 +1,163 @@
+* {
+  background-color: #212529;
+}
+
+.s {
+  box-shadow: 0 5px 10px 0 #495057;
+  transition: box-shadow .3s;
+  border-radius: 20px;
+  width: 250px;
+  height: 180px;
+  padding: 5px;
+  margin-bottom: 1rem;
+  text-align: center;
+  border: 1px solid #ADB5BD;
+  background: #495057 inset;
+  float: left;
+}
+
+.s:hover {
+  box-shadow: 0 5px 20px 0 #ADB5BD; 
+}
+
+img {
+  width: 50px;
+}
+
+#price {
+  font-weight: bold;
+  color: darkcyan;
+}
+
+div {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#theData {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  color: #ffffff;
+}
+
+input[type=text] {
+  width: 140px;
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  font-size: 14px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 20px;
+  transition: width 0.7s ease-in-out;
+  }
+  
+input[type=text]:focus {
+  width: 20%;
+  text-align: center;
+  color: #ffffff;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+#inp {
+  text-align: center;
+}
+
+#head {
+  background-color: #ADB5BD inset;
+  box-shadow: 0px 0px 9px 0px #ADB5BD;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 14px;
+  border-radius: 12px;
+}
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 12px;
+}
+
+#theOther {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff inset;
+  box-shadow: 0px 0px 9px 0px #ADB5BD;
+  border-radius: 12px;
+}
+
+.c {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 64px;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+}
+
+#button {
+  position: absolute;
+  left: 95%;
+  bottom: 92.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 65px;
+  height: 35px;
+  background-color: #FAFBFC;
+  border: 1px solid #212529;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#button:hover {
+  background-color: darkcyan;
+}
+
+#logo {
+  position: absolute;
+  left: 8%;
+  bottom: 92.7%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: transparent;
+  width: 34px;
+  height: 34px;
+}
+
+#kr {
+  position: absolute;
+  left: 5%;
+  bottom: 91.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background: transparent;
+  color: #ffffff;
+}
+
+#n {
+  position: absolute;
+  left: 10.1%;
+  bottom: 91.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background: transparent;
+  color: #ffffff;
+}
+
+#kr:hover, #n:hover {
+  color: darkcyan;
+}
